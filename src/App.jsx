@@ -8,7 +8,7 @@ import Productbox from "./Components/Productbox";
 function App() {
   //====================== State variables Declared here===============//
   const [viewCart, setViewCart] = useState(false);
-  const [cartItemCount, setCartItemCount] = useState();
+  const [cartItemCount, setCartItemCount] = useState(0);
   const [lightBox, setLightBox] = useState(false);
   const [lightBoxButtons] = useState(true);
   const [menu, setMenu] = useState(false);

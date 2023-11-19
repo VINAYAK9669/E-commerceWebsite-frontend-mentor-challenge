@@ -17,7 +17,6 @@ We have imported below props
 */
 
 function Cart({ CardStatus, ItemCount, SetItemCount, menu }) {
-  console.log(menu);
   if (!CardStatus || menu) return;
   return (
     <div className={styles.container}>
