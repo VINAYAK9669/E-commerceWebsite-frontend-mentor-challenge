@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  position: relative;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  width: 80%;
+  padding: 0rem 1rem;
+  margin: 0 auto;
+  border-bottom: 2px solid hsl(223, 64%, 98%);
+  z-index: +1111;
+}
+/* ==========>  styling for the leftside of the navbar */
+.leftside {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 50%;
+}
+
+.leftsidemenu.active {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 2rem;
+}
+.leftsidemenu.active li:first-child {
+  display: none;
+}
+
+.leftsidelist {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  height: 6rem;
+}
+.leftsidelist li {
+  font-size: 1rem;
+  padding: 2.4rem 0;
+  position: relative;
+}
+.leftsidelist li:not(:first-child)::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 0%;
+  border-bottom: 4px solid hsl(26, 100%, 55%);
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+.leftsidelist li:hover::before {
+  width: 100%;
+  left: 0;
+}
+.leftsidelist li:first-child {
+  display: none;
+}
+/* ================RightSide Nav styles============== */
+.rightside ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.rightside ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avtar img {
+  width: 50%;
+}
+.rightside ul li {
+  position: relative;
+}
+/* To apply a border to profile pic on hover */
+.avtar::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  height: 100%;
+  width: 50%;
+  background-color: hsl(26, 100%, 55%);
+  z-index: -1;
+  border-radius: 50%;
+  transition: all 0.1s;
+}
+.avtar:hover::before {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+/* Style- Cart tag [How many items added in a cart] */
+.rightside ul li:first-child span {
+  position: absolute;
+  top: -35%;
+  left: 50%;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: hsl(26, 100%, 55%);
+  padding: 0.08rem 0.4rem;
+  border-radius: 11px;
+}
+/* ================== Nav Responsiveness================= */
+
+@media screen and (max-width: 900px) {
+  /* Onclose-click event will make list disappear */
+  nav {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .leftsidelist.deactivate li {
+    display: none;
+  }
+  .leftsidemenu.active li:first-child {
+    display: block;
+  }
+
+  .leftsidemenu.active {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  .leftsidemenu.active li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  .leftsidemenu.deactivate {
+    display: none;
+  }
+  .leftsidelist.active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background: linear-gradient(
+      90deg,
+      hsl(360, 100%, 100%) 58%,
+      hsla(0, 0%, 22%, 0.2) 1%,
+      hsla(0, 100%, 100%, 0.5) 59%
+    );
+    overflow: hidden;
+    border-right: 1px solid #00000f3f;
+    z-index: 1;
+    pointer-events: all;
+  }
+  .leftsidelist.active li {
+    width: 100%;
+    font-weight: 700;
+    padding: 0.6rem 0;
+    margin-left: 2rem;
+    text-align: left;
+    width: 200px;
+    z-index: 1;
+  }
+  .leftsidelist.active li:first-child {
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .rightside ul {
+    gap: 0rem;
+  }
+  .rightside ul .avtar {
+    width: 100px;
+  }
+  .avtar img {
+    width: 30%;
+  }
+  .avtar::before {
+    width: 30%;
+  }
+}
