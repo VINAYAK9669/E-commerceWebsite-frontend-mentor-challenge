@@ -141,6 +141,7 @@ body {
   }
   .product-purchase {
     display: flex;
+
     justify-content: center;
     align-items: center;
   }
@@ -149,5 +150,10 @@ body {
   }
   .add-cart-button {
     width: 100%;
+  }
+  .product-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
