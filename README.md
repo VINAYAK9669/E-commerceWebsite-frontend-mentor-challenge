@@ -36,7 +36,7 @@ This project is a response to the E-commerce product page challenge provided by 
 - 🎨 Utilizing advanced animation effects to enhance the user experience
 
 ## Screenshots 📷
-
+/* Main Page */
 ![Screenshot 1](readmeImages/Desktop-Main.JPG)
 ![Screenshot 2](readmeImages/Desktop-Cart-Nav-Animation.JPG)
 ![Screenshot 2](readmeImages/Desktop-Cart-Empty.JPG)
