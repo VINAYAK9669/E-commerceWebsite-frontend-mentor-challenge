@@ -49,5 +49,5 @@ This project is a response to the E-commerce product page challenge provided by 
 ![Screenshot 2](readmeImages/Desktop-Cart-Full.JPG)
 
 ### Navbar in Mobile Device
-![Screenshot 2](readmeImages/Desktop-Cart-Navigation at side.JPG)
+![Screenshot 2](readmeImages/Clicking on big image.JPG)
 
