@@ -37,11 +37,11 @@ This project is a response to the E-commerce product page challenge provided by 
 
 ## Screenshots 📷
 
-![Screenshot 1](./screenshots/screenshot1.png)
-*Caption for Screenshot 1*
-
-![Screenshot 2](./screenshots/screenshot2.png)
-*Caption for Screenshot 2*
+![Screenshot 1](readmeImages/Desktop-Main.JPG)
+![Screenshot 2](readmeImages/Desktop-Cart-Nav-Animation.JPG)
+![Screenshot 2](readmeImages/Desktop-Cart-Empty.JPG)
+![Screenshot 2](readmeImages/Desktop-Cart-Full.JPG)
+![Screenshot 2](readmeImages/Desktop-Cart-Navigation at side.JPG)
 
 ## Getting Started 🚦
 
