@@ -48,6 +48,6 @@ This project is a response to the E-commerce product page challenge provided by 
 ### Navbar Desktop cart when Full
 ![Screenshot 2](readmeImages/Desktop-Cart-Full.JPG)
 
-### Navbar in Mobile Device
-![Screenshot 2](readmeImages/readmeImages/bigIkmageClick.JPG)
+### On Big Image Click
+![Screenshot 2](readmeImages/bigIkmageClick.JPG)
 
