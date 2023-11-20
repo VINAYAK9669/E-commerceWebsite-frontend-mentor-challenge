@@ -36,27 +36,18 @@ This project is a response to the E-commerce product page challenge provided by 
 - 🎨 Utilizing advanced animation effects to enhance the user experience
 
 ## Screenshots 📷
-/* Main Page */
+### Main Page
 ![Screenshot 1](readmeImages/Desktop-Main.JPG)
+
+### Navbar Animation
 ![Screenshot 2](readmeImages/Desktop-Cart-Nav-Animation.JPG)
+
+### Navbar Desktop cart when empty
 ![Screenshot 2](readmeImages/Desktop-Cart-Empty.JPG)
+
+### Navbar Desktop cart when Full
 ![Screenshot 2](readmeImages/Desktop-Cart-Full.JPG)
+
+### Navbar in Mobile Device
 ![Screenshot 2](readmeImages/Desktop-Cart-Navigation at side.JPG)
 
-## Getting Started 🚦
-
-1. Clone the repository: `git clone https://github.com/your-username/e-commerce-product-page.git`
-2. Install dependencies: `npm install`
-3. Start the development server: `npm run dev`
-
-## Contribution Guidelines 🤝
-
-If you'd like to contribute:
-
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature/new-feature`
-3. Commit your changes: `git commit -m 'Add new feature'`
-4. Push to the branch: `git push origin feature/new-feature`
-5. Open a pull request
-
-Happy coding! 🚀
