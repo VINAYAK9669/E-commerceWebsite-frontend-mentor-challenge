@@ -18,6 +18,8 @@ This project is a response to the E-commerce product page challenge provided by 
 
 [GitHub Repository](https://github.com/VINAYAK9669/E-commerceWebsite-frontend-mentor-challenge)
 
+[Frontend-Mentor Code Link](https://www.frontendmentor.io/solutions/responsive-ecommerce-website-using-react-vite-Knj6aBGzIz)
+
 ## User Interaction ✨
 
 - 🌟 Open a lightbox gallery by clicking on the large product image
