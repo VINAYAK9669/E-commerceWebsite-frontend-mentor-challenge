@@ -20,6 +20,7 @@ This project is a response to the E-commerce product page challenge provided by 
 
 [Frontend-Mentor Code Link](https://www.frontendmentor.io/solutions/responsive-ecommerce-website-using-react-vite-Knj6aBGzIz)
 
+[Check out LinkedIn Post](https://www.linkedin.com/posts/vinay1998_frontendchallenge-ecommercewebsite-react-activity-7132431009920270336-llOh?utm_source=share&utm_medium=member_desktop)
 ## User Interaction ✨
 
 - 🌟 Open a lightbox gallery by clicking on the large product image
